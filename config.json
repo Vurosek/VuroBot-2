@@ -1,0 +1,30 @@
+{
+  "token": "your-bot-token", //Token Bota 
+  "clientId": "your-client-id",//ClientId Bota 
+  "guildId": "your-guild-id", //ID Naszego Serwera
+  "welcomeChannelId": "ID_KANAŁU_POWITAŃ",
+  "goodbyeChannelId": "ID_KANAŁU_POŻEGNAŃ",
+  "welcomeMessage": "Witaj na serwerze, {user}!",
+  "goodbyeMessage": "Do zobaczenia, {user}.",
+  "welcomeIconUrl": "URL_IKONY_POWITAŃ",
+  "goodbyeIconUrl": "URL_IKONY_POŻEGNAŃ",
+  "autoEmbedChannels": {
+    "twitter": "ID_KANAŁU_TWT",
+    "dw": "ID_KANAŁU_DW",
+    "stock": "ID_KANAŁU_GIEŁDA"
+  },
+  "embedSettings": {
+    "twitter": {
+      "iconUrl": "URL_IKONY_TWT",
+      "color": "#1DA1F2"
+    },
+    "dw": {
+      "iconUrl": "URL_IKONY_DW",
+      "color": "#00BFFF"
+    },
+    "stock": {
+      "iconUrl": "URL_IKONY_GIEŁDA",
+      "color": "#FFD700"
+    }
+  }
+}
